@@ -5,8 +5,8 @@
 
 # --- Required options --- #
 
-baseurl: "/"
-url: "https://smashed-toes.github.io"
+baseurl: ""
+url: "https://smashed-toes.github.io/"
 
 # Name of website
 title: Sam Masto
