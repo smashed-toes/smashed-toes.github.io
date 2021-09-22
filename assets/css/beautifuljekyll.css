@@ -1002,6 +1002,14 @@ pre {
   margin: 0 auto;
 }
 
+.about-img {
+  height: 500px;
+  float: right;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 4px;
+}
+
 /* Search bar */
 #beautifuljekyll-search-overlay {
   display: none;

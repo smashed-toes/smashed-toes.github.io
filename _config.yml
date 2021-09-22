@@ -37,7 +37,13 @@ round-avatar: true
 
 images:
     - image: /assets/img/AGNR.png
-    - image: /assets/img/headshot-cropped.JPG
+    - image: /assets/img/grecco.png
+    - image: /assets/img/hanging-girl-cropped.jpg
+    - image: /assets/img/oliver.jpeg
+    - image: /assets/img/switcomh.png
+    - image: /assets/img/bulrusher.png
+    - image: /assets/img/oliver-dark.jpeg
+    
 
 
 # --- Footer social media links --- #
