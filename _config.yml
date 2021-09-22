@@ -35,6 +35,10 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
+images:
+    - image: /assets/img/AGNR.png
+    - image: /assets/img/headshot-cropped.JPG
+
 
 # --- Footer social media links --- #
 
