@@ -18,9 +18,11 @@ author: Sam Masto
 
 navbar-links:
   About Me: "aboutme"
-  Work:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Film: "work/film"
+  Theater: "work/theater"
+  Commercial: "work/commercial"
+  Talented Homies:
+    - Sobhit Arora: "https://www.sobhit.com"
 
 # --- Logo --- #
 
