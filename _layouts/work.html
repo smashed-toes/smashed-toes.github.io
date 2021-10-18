@@ -18,16 +18,14 @@ common-css:
     <div class = "col">
         {% for work in site.data.works %}
             {% if work.type == page.type and work.num == 0 %}
-                <div>
-                    <div class="work-item"> 
-                        <a href="{{work.url}}">
-                            <img src="{{ work.image }}">
-                        </a>
-                    </div>
-                    <div class = "overlay hide" onmouseover="workHover(this)" onmouseout="workOut(this)">
-                        <span>{{ work.name }}</span>
-                        <span>{{ work.description }}</span>
-                    </div>
+                <div class="work-item"> 
+                    <a href="{{work.url}}">
+                        <img src="{{ work.image }}">
+                        <div class = "overlay hide" onmouseover="workHover(this)" onmouseout="workOut(this)">
+                            <p class = "work-title">{{ work.name }}</p>
+                            <span class = "work-description">{{ work.description }}</span>
+                        </div>
+                    </a>
                 </div>
             {% endif %}
         {% endfor %}
@@ -35,16 +33,14 @@ common-css:
     <div class = "col">
         {% for work in site.data.works %}
             {% if work.type == page.type and work.num == 1 %}
-                <div>
-                    <div class="work-item"> 
-                        <a href="{{work.url}}">
-                            <img src="{{ work.image }}">
-                        </a>
-                    </div>
-                    <div class = "overlay hide" onmouseover="workHover(this)" onmouseout="workOut(this)">
-                        <span>{{ work.name }}</span>
-                        <span>{{ work.description }}</span>
-                    </div>
+                <div class="work-item"> 
+                    <a href="{{work.url}}">
+                        <img src="{{ work.image }}">
+                        <div class = "overlay hide" onmouseover="workHover(this)" onmouseout="workOut(this)">
+                            <p class = "work-title">{{ work.name }}</p>
+                            <span class = "work-description">{{ work.description }}</span>
+                        </div>
+                    </a>
                 </div>
             {% endif %}
         {% endfor %}

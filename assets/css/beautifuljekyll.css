@@ -1033,20 +1033,33 @@ pre {
   background-color: #05172d;
   align-items: center;
   justify-content: center;
-  margin-bottom: 209px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.work-title {
+  color: white;
+  font-weight: bold;
+}
+
+.work-description {
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .overlay {
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   flex-direction: column;
-  opacity: 70%;
+  opacity: 90%;
   top: 0px;
   left: 0px;
+  height: 400px;
   background-color: #777;
-
 }
 
 .hide {
