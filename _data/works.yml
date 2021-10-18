@@ -1,0 +1,30 @@
+- type: film
+  url: 
+  name: Caffe Greco
+  image: /assets/img/CaffeGrecoTable.png
+  description: A heartfelt rom-com about finding individual happiness. An independent Brown University student production.
+  num: 0
+- type: film
+  url: https://brownmotionpictures.org/films#/good-night-rest/
+  name: A Good Night's Rest
+  image: /assets/img/AGNR_color.png
+  description: A horror comedy featuring adventurous college graduates and a mysterious mattress store owner. A Brown Motion Pictures production.
+  num: 1
+- type: film
+  url: https://youtu.be/9sVAtK1rv4w?t=5252
+  name: Telephone
+  image: /assets/img/Telephone.png
+  descriptions: Covering up strong feelings in tight-knit friend groups is hard. Playing drinking games spices things up. A RISD Junior Thesis film.
+  num: 0
+- type: film
+  url: 
+  name: Sometimes I Want To Cut Off My Hands
+  image: /assets/img/switcomh.png
+  description: A manipulative director and a struggling actress make a movie about her, but nothing feels like it should. A Brown Motion Pictures production and a selection of the 2019 ARMS Flip the Script Festival.
+  num: 1
+- type: film
+  url: https://www.youtube.com/watch?v=R0GVNAg6OGg&t=225s
+  name: Influence
+  image: /assets/img/influence_running_cropped.png
+  description: A high school student bullied for his sexuality bonds with his college-dropout older brother amid their own crises. A RISD Junior Thesis Film selected by the Omeleto Youtube channel. 
+  num: 0
