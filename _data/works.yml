@@ -2,7 +2,7 @@
   url: 
   name: Caffe Greco
   image: /assets/img/CaffeGrecoTable.png
-  description: A heartfelt rom-com about finding individual happiness. An independent Brown University student production.
+  description: A heartfelt rom-com about finding individual happiness, together. An independent Brown University student production.
   num: 0
 - type: film
   url: https://brownmotionpictures.org/films#/good-night-rest/
@@ -28,3 +28,45 @@
   image: /assets/img/influence_running_cropped.png
   description: A high school student bullied for his sexuality bonds with his college-dropout older brother amid their own crises. A RISD Junior Thesis Film selected by the Omeleto Youtube channel. 
   num: 0
+- type: theater
+  url: 
+  image: /assets/img/Hanging_Girl_Trio.jpeg
+  name: Everett in "The Hanging Girl"
+  description: In this thrilling horror play, Sonny throws a party at a shack on a hill that deteriorates into chaos. Little does he know, his Father - Everett - committed an unforgivable act at the same spot 18 years ago. Directed by Rishi Wagle, Produced by Brown University Production Workshop, and written by Aleks Merilo.
+  num: 0
+- type: theater
+  url: https://drive.google.com/file/d/13qQKYGO2s0qhAfyoZuaED_tCXmmjcSZT/view?t=22m33s
+  name: Oliver in "As You Like It"
+  image: /assets/img/AYLI_Cast.JPG
+  description: This classic Shakespeare pastoral comedy was performed in the main hall of the Brown slavic studies building. This links to my favorite scene from the 2nd half of our performance. Directed by Maddie Groff and produced by Brown University's Shakespeare On The Green
+  num: 1
+- type: theater
+  url: https://drive.google.com/file/d/1CIX-TiWNbaIQc8gql3hPmQk9rbwxiNjO/view?t=04m03s
+  name: Dad in "Goblin House"
+  image: /assets/img/Goblin_House_Bread.png
+  description: This original absurdist musical follows those affected by Goblin House, a high stakes game show sponsored by MagicBread (you get three wishes but don't eat it). After Dad eats the magic bread, his 10 year old daughter teams up with a human cat and her mom's new boyfriend to defeat Carbohydro, the magic bread mascot, and save her Dad. Written and Directed by Charlie and Ben Stewart. Produced by Brown University Musical Forum.
+  num: 0
+- type: theater
+  url: 
+  name: Simon in "A Firefly In the Light"
+  image: /assets/img/Firefly_Cursed.jpeg
+  description: An original musical about a small-town girl and her childhood crush who both have big dreams of making it in the music industry. As they grow up, transitioning from high-school to the real world, they have very different experiences. The play was an Official Selection of the 2017 New York Musical Festival. Written and Directed by Shayna Toh and produced by Brown University Musical Forum.
+  num: 1
+- type: theater
+  url: https://drive.google.com/file/d/1uUsznmoAqv53K0bd9eHt10pJVBrjDs8H/view?t=42m27s
+  name: Boy in "Bulrusher"
+  image: /assets/img/PaolaBulrusher.jpeg
+  description: In 1955, in the redwood country north of San Francisco, a multiracial girl grows up in a predominantly white town whose residents pepper their speech with the historical dialect of Boontling. Directed by Sarah d'Angelo and produced by Sock & Buskin Theater at Brown University.
+  num: 0
+- type: theater
+  url: 
+  name: Jake in "Evil Dead The Musical (High School Version)"
+  image: /assets/img/EvilDeadFart.jpg
+  description: Inspired by the cult classic movies of the same name, this bloody and chaotic production follows the horrific events that follow when you spend a night in an abandoned cabin with a book bound in human skin. This was the first ever production of the High School Version of this Off-Broadway musical. Produced at Stagedoor Manor and directed by Rob Sharlow. 
+  num: 1
+- type: monologue
+  url: https://www.youtube.com/embed/nrGqIxHR2AA
+  description: This monologue is from the play "The Unavoidable Disappearance of Tom Durnin" written by Steven Levinson. The performance took place during my "Voice - The Actors Instrument" class at Brown University, taught by Rebecca Gibel. You'll hear how she offers excellent guidance as I move into, through, and out of the monologue. This reading of it became very important and emotionally charged for me and opened me up in a new and exciting way. I hope you enjoy it!
+- type: monologue
+  url: https://www.youtube.com/embed/MilFSLA_h-4
+  description: This monologue, from the solo show Wake Up and Smell The Coffee, was my final for a iPhone moviemaking class at Brown University taught by emmy-winning filmmaker and producer Ted Bogosian.
