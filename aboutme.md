@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Sam Masto
-subtitle: Actor by day, and by night
+subtitle: Actor and Singer
 ---
 Sam Masto is an actor and singer born and raised in San Francisco. He started stage
 performance at the age of 13 in school plays. After quickly taking a liking to the 
