@@ -1029,7 +1029,6 @@ pre {
 
 .work-item {
   display: flex;
-  height: 400px;
   background-color: #05172d;
   align-items: center;
   justify-content: center;
@@ -1048,6 +1047,11 @@ pre {
   padding-right: 10%;
 }
 
+.work-note {
+  color: white;
+  font-style: italic;
+}
+
 .overlay {
   display: flex;
   align-items: center;
@@ -1058,7 +1062,7 @@ pre {
   opacity: 90%;
   top: 0px;
   left: 0px;
-  height: 400px;
+  height: 100%;
   background-color: #777;
 }
 
