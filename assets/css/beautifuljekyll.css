@@ -1014,7 +1014,7 @@ pre {
   border-bottom: 50px solid #05172d;
 }
 
-@media screen and (max-width: 00px) {
+@media screen and (max-width: 500px) {
   #reel {
     height: 500px;
   }
