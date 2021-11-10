@@ -143,11 +143,11 @@ var BeautifulJekyllJS = {
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
 
 function workHover(el) {
-  $(el).removeClass("hide");
+  $(el).removeClass("hide-me");
   console.log("hovering"); 
 }
 
 function workOut(el) {
-  $(el).addClass("hide");
+  $(el).addClass("hide-me");
   console.log("not hovering");
 }
