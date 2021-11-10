@@ -1009,6 +1009,18 @@ pre {
   margin: 0 auto;
 }
 
+#reel {
+  border-top: 100px solid #05172d; 
+  border-bottom: 50px solid #05172d;
+}
+
+@media screen and (max-width: 00px) {
+  #reel {
+    height: 500px;
+  }
+  
+}
+
 .about-img {
   height: 500px;
   float: right;
