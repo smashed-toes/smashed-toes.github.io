@@ -1037,6 +1037,7 @@ pre {
   top: 0px;
   left: 0px;
   height: 100%;
+  padding-left: 5vw;
 }
 
 @media screen 
