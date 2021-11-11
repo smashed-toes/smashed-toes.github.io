@@ -1161,6 +1161,42 @@ pre {
   
 }
 
+.monologue-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.monologue-video {
+  width: 57vw;
+  height: 30vw;
+
+}
+
+.phone-monologue {
+  display: none;
+}
+
+@media screen
+  and (max-width: 1000px) 
+  and (max-height: 2000px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+    .phone-monologue {
+      display: contents;
+      width: 57vw;
+      height: 30vw;
+    }
+
+    .monologue-video {
+      display: none;
+    }
+
+
+}
+
+
 
 /* Search bar */
 #beautifuljekyll-search-overlay {

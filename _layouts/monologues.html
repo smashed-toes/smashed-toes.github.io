@@ -8,8 +8,16 @@ common-css:
 
 {% for work in site.data.works %}
         {% if work.type == page.type%}
-            <iframe width="760" height="400" src="{{work.url}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class = "monologue-container">
+            <iframe class = "monologue-video" src="{{work.url}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class = "phone-monologue">
+              <a href="{{work.url}}">
+                <img src="{{work.image}}">
+              </a>
+              <span class="work-note">Click the image to watch!</span>
+            </div>
             <p>{{work.description}}</p>
+          </div>
         {% endif %}
 {% endfor %}
 
