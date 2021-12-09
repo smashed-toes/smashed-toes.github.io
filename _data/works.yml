@@ -1,5 +1,19 @@
 - type: film
   url: 
+  name: Birthday Brunch
+  image: /assets/img/birthday_brunch_group.jpg
+  description: Toxic relationships fueled by drugs and alcohol are satirically put on display in this time bomb of a raunchy dark comedy. A LMU Graduate Thesis film. 
+  note: Currently in post-production.
+  num: 0
+- type: film
+  url: 
+  name: Phasmophobia
+  image: /assets/img/Phasmo_field.jpeg
+  description: Stranded on earth after his untimely death 80 years ago, John needs the help of a jumpy psychic and an undead girl to move on. However, there's a lot more to uncover than John thinks. A NYFA Graduate Thesis film.
+  note: Currently in post-production.
+  num: 1
+- type: film
+  url: 
   name: Caffe Greco
   image: /assets/img/grecco.png
   description: A heartfelt rom-com about finding individual happiness, together. An independent Brown University student production.
