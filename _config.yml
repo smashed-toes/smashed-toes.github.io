@@ -51,6 +51,7 @@ images:
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
+  imdb: nm10824725
   email: "sam.masto@gmail.com"
   facebook: sam.masto
   github: smashed-toes
