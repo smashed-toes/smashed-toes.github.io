@@ -1,7 +1,7 @@
 ---
 layout: about
-title: Sam Masto
-subtitle: "Commercial Representation: AKA               Theatrical Representation: Seeking Rep"
+title: hey there
+subtitle: "this is written in the third person which means obviously someone else wrote this who wasn't me"
 ---
 
 Sam Masto is your quintessential triple threat (actor, singer, software engineer), from San Francisco, CA. He was first exposed to the horrors of student theater when he was 13 and never looked back. He enrolled in Stagedoor Manor Performing Arts Training Center where he spent his summers playing roles like Charlemagne in Pippin and originated the role of Jake in Evil Dead The Musical (High School Version).
