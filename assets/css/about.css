@@ -1,7 +1,15 @@
 .about-img {
-    height: 500px;
-    float: right;
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 4px;
-  }
+  height: 500px;
+  float: right;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 4px;
+}
+
+.about-img-left {
+  height: 500px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 4px;
+}
