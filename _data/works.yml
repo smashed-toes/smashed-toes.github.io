@@ -1,33 +1,33 @@
 - type: film
-  url: 
+  url:
   name: The Last Minute
   image: /assets/img/The_Last_Minute_noose.JPG
-  description: Struggling to come to terms with himself, a veteran has hallucinatory conversations with his furniture as he journey's through memories with loved ones. A NYFA Graduate thesis film. 
+  description: Struggling to come to terms with himself, a veteran has hallucinatory conversations with his furniture as he journey's through memories with loved ones. A NYFA Graduate thesis film.
   note: Currently in post-production.
   num: 0
 - type: film
-  url: 
+  url:
   name: Work Life
   image: /assets/img/Worklife_shotgun.jpeg
   description: How much do you know about your coworkers? Work Life follows the chaotic paths of 4 colleagues as they get off work on a Friday and wind down in their own... unique ways. A USC Graduate Thesis film.
   note: Currently in post-production.
   num: 1
 - type: film
-  url: 
+  url:
   name: Birthday Brunch
   image: /assets/img/birthday_brunch_group.jpg
-  description: Toxic relationships fueled by drugs and alcohol are satirically put on display in this time bomb of a raunchy dark comedy. A LMU Graduate Thesis film. 
+  description: Toxic relationships fueled by drugs and alcohol are satirically put on display in this time bomb of a raunchy dark comedy. A LMU Graduate Thesis film.
   note: Currently in post-production.
   num: 0
 - type: film
-  url: 
+  url:
   name: Phasmophobia
   image: /assets/img/phasmophobia_makeup.png
   description: Stranded on earth after his untimely death 80 years ago, John needs the help of a jumpy psychic and an undead girl to move on. However, there's a lot more to uncover than John thinks. A NYFA Graduate Thesis film.
   note: Currently out for festival submissions, link available soon!
   num: 1
 - type: film
-  url: 
+  url:
   name: Caffe Greco
   image: /assets/img/grecco.png
   description: A heartfelt rom-com about finding individual happiness, together. An independent Brown University student production.
@@ -48,7 +48,7 @@
   note: Click here to watch!
   num: 0
 - type: film
-  url: 
+  url:
   name: Sometimes I Want To Cut Off My Hands
   image: /assets/img/switcomh.png
   description: A manipulative director and a struggling actress make a movie about her, but nothing feels like it should. A Brown Motion Pictures production and a selection of the 2019 ARMS Flip the Script Festival.
@@ -58,58 +58,65 @@
   url: https://www.youtube.com/watch?v=R0GVNAg6OGg&t=12m26s
   name: Influence
   image: /assets/img/influence_running.png
-  description: A high school student bullied for his sexuality bonds with his college-dropout older brother amid their own crises. A RISD Junior Thesis Film selected by the Omeleto Youtube channel. 
+  description: A high school student bullied for his sexuality bonds with his college-dropout older brother amid their own crises. A RISD Junior Thesis Film selected by the Omeleto Youtube channel.
   note: Click here to watch!
   num: 0
 - type: theater
-  url: 
+  url:
+  image: /assets/img/cannibal_staredown_enhanced.jpg
+  name: Frenchy in "Cannibal - The Musical"
+  description: Trey Parker's Cannibal - The Musical is the true story of the only person convicted of cannibalism in America - Alfred Packer. He tells his story of an ill-fated trip to the Colorado Territory involving run-ins with fur trappers, a cyclops, and of course... cannibalism. Directed by Raleigh Lench and produced by BoomStick Theater.
+  note: Footage is unavailable.
+  num: 0
+- type: theater
+  url:
   image: /assets/img/space_captain_scared.JPG
   name: Dr. Crabbe/Centurion 1 in "Space Captain - Captain of Space"
   description: The moon is crashing into the earth! The evil King Xayno wants to conquer the galaxy! Our daring Space Captain needs to... check his ego?! This absurd play produced by BoomStick Theater and directed by Raleigh Lench puts a twist on the tropes of 1930's space adventure shows and leaves you wanting more.
   note: Footage is unavailable.
-  num: 0
+  num: 1
 - type: theater
-  url: 
+  url:
   image: /assets/img/Hanging_Girl_Trio.jpeg
   name: Everett in "The Hanging Girl"
   description: In this thrilling horror play, Sonny throws a party at a shack on a hill that deteriorates into chaos. Little does he know, his Father - Everett - committed an unforgivable act at the same spot 18 years ago. Directed by Rishi Wagle, Produced by Brown University Production Workshop, and written by Aleks Merilo.
   note: Footage is unavailable.
-  num: 1
+  num: 0
 - type: theater
   url: https://drive.google.com/file/d/13qQKYGO2s0qhAfyoZuaED_tCXmmjcSZT/view?t=22m33s
   name: Oliver in "As You Like It"
   image: /assets/img/AYLI_Cast.JPG
   description: This classic Shakespeare pastoral comedy was performed in the main hall of the Brown slavic studies building. This links to my favorite scene from the 2nd half of our performance. Directed by Maddie Groff and produced by Brown University's Shakespeare On The Green
   note: Click here to watch!
-  num: 0
+  num: 1
 - type: theater
   url: https://drive.google.com/file/d/1CIX-TiWNbaIQc8gql3hPmQk9rbwxiNjO/view?t=04m03s
   name: Dad in "Goblin House"
   image: /assets/img/Goblin_House_Bread.png
   description: This original absurdist musical follows those affected by Goblin House, a high stakes game show sponsored by MagicBread (you get three wishes but don't eat it). After Dad eats the magic bread, his 10 year old daughter teams up with a human cat and her mom's new boyfriend to defeat Carbohydro, the magic bread mascot, and save her Dad. Written and Directed by Charlie and Ben Stewart. Produced by Brown University Musical Forum.
   note: Click here to watch!
-  num: 1
+  num: 0
 - type: theater
-  url: 
+  url:
   name: Simon in "A Firefly In the Light"
   image: /assets/img/Firefly_Cursed.jpeg
   description: An original musical about a small-town girl and her childhood crush who both have big dreams of making it in the music industry. As they grow up, transitioning from high-school to the real world, they have very different experiences. The play was an Official Selection of the 2017 New York Musical Festival. Written and Directed by Shayna Toh and produced by Brown University Musical Forum.
   note: Footage is unavailable.
-  num: 0
+  num: 1
 - type: theater
   url: https://drive.google.com/file/d/1YnCVrek9AY31e0aa8KPRxDZsCrkXlq3m/view?t=42m27s
   name: Boy in "Bulrusher"
   image: /assets/img/PaolaBulrusher.jpeg
   description: In 1955, in the redwood country north of San Francisco, a multiracial girl grows up in a predominantly white town whose residents pepper their speech with the historical dialect of Boontling. Directed by Sarah d'Angelo and produced by Sock & Buskin Theater at Brown University.
   note: Click the image to watch!
-  num: 1
+  num: 0
 - type: theater
-  url: 
+  url:
   name: Jake in "Evil Dead The Musical (High School Version)"
   image: /assets/img/EvilDeadFart.jpg
-  description: Inspired by the cult classic movies of the same name, this bloody and chaotic production follows the horrific events that ensue when you spend a night in an abandoned cabin with a book bound in human skin. This was the first ever production of the High School Version of this Off-Broadway musical. Produced at Stagedoor Manor and directed by Rob Sharlow. 
+  description: Inspired by the cult classic movies of the same name, this bloody and chaotic production follows the horrific events that ensue when you spend a night in an abandoned cabin with a book bound in human skin. This was the first ever production of the High School Version of this Off-Broadway musical. Produced at Stagedoor Manor and directed by Rob Sharlow.
   note: Footage is unavailable.
-  num: 0
+  num: 1
 - type: monologue
   image: /assets/img/Durnin.png
   url: https://www.youtube.com/embed/nrGqIxHR2AA
