@@ -23,20 +23,6 @@
       <span class="sr-only">IMDb</span>
     </a>
   </li>
-  {%- endif -%} {%- if site.social-network-links.email -%}
-  <li class="list-inline-item">
-    <a
-      href="mailto:{{ site.social-network-links.email }}"
-      title="Email me"
-      target="_blank"
-    >
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Email me</span>
-    </a>
-  </li>
   {%- endif -%} {%- if site.social-network-links.calendly -%}
   <li class="list-inline-item">
     <a
@@ -93,18 +79,18 @@
       <span class="sr-only">GitHub</span>
     </a>
   </li>
-  {%- endif -%} {%- if site.social-network-links.twitter -%}
+  {%- endif -%} {%- if site.social-network-links.instagram -%}
   <li class="list-inline-item">
     <a
-      href="https://twitter.com/{{ site.social-network-links.twitter }}"
-      title="Twitter"
+      href="https://www.instagram.com/{{ site.social-network-links.instagram }}"
+      title="Instagram"
       target="_blank"
     >
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fa-brands fa-x-twitter fa-stack-1x fa-inverse"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Twitter</span>
+      <span class="sr-only">Instagram</span>
     </a>
   </li>
   {%- endif -%} {%- if site.social-network-links.tiktok -%}
@@ -191,18 +177,32 @@
       <span class="sr-only">Snapchat</span>
     </a>
   </li>
-  {%- endif -%} {%- if site.social-network-links.instagram -%}
+  {%- endif -%} {%- if site.social-network-links.twitter -%}
   <li class="list-inline-item">
     <a
-      href="https://www.instagram.com/{{ site.social-network-links.instagram }}"
-      title="Instagram"
+      href="https://twitter.com/{{ site.social-network-links.twitter }}"
+      title="Twitter"
       target="_blank"
     >
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+        <i class="fa-brands fa-x-twitter fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Instagram</span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+  {%- endif -%} {%- if site.social-network-links.email -%}
+  <li class="list-inline-item">
+    <a
+      href="mailto:{{ site.social-network-links.email }}"
+      title="Email me"
+      target="_blank"
+    >
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
     </a>
   </li>
   {%- endif -%} {%- if site.social-network-links.youtube -%}
