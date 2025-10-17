@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Ribes";
+  src: url("./assets/fonts/Ribes-Black.woff2") format("woff2"),
+    url("./assets/fonts/Ribes-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional: controls font loading behavior */
+}
+
+@theme {
+  /* Custom Colors */
+  --color-primary-color: #301934;
+  /* Fonts */
+  --font-heading: "Unbounded", serif;
+  --font-body: "Oswald", sans-serif;
+  --font-sans: "Roboto", sans-serif; /* Override default sans-serif font */
+  --font-display: "Ribes", sans-serif; /* Define a new font family */
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
