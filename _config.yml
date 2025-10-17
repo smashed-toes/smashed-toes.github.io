@@ -20,7 +20,7 @@ navbar-links:
   About Me: "aboutme"
   Film: "work/film"
   Theater: "work/theater"
-  Monologues: "work/monologues"
+  # Monologues: "work/monologues"
 
 # --- Logo --- #
 
