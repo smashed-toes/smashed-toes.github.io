@@ -14,48 +14,55 @@ common-css:
   - "/assets/css/bootstrap-social.css"
   - "/assets/css/beautifuljekyll.css"
 ---
-<div class = "work-container">
-    <div class = "col">
-        {% for work in site.data.works %}
-            {% if work.type == page.type and work.num == 0 %}
-                <div class="work-item"> 
-                    <a href="{{work.url}}">
-                        <img src="{{ work.image }}">
-                        <div class = "overlay hide-me" onmouseover="workHover(this)" onmouseout="workOut(this)">
-                            <p class = "work-title">{{ work.name }}</p>
-                            <span class = "work-description">{{ work.description }}</span>
-                            <span class = "work-note">{{ work.note }} </span> 
-                        </div>
-                        <div class = "phone-descriptor">
-                            <span class = "work-title">{{ work.name }}</span>
-                            <span class = "work-description">{{ work.description }}</span>
-                            <span class = "work-note">{{ work.note }} </span> 
-                        </div>
-                    </a>
-                </div>
-            {% endif %}
-        {% endfor %}
+
+<div class="work-container">
+  <div class="col">
+    {% for work in site.data.works %} {% if work.type == page.type and work.num
+    == 0 %}
+    <div class="work-item">
+      <a href="{{work.url}}" target="_blank">
+        <img src="{{ work.image }}" />
+        <div
+          class="overlay hide-me"
+          onmouseover="workHover(this)"
+          onmouseout="workOut(this)"
+        >
+          <p class="work-title">{{ work.name }}</p>
+          <span class="work-description">{{ work.description }}</span>
+          <span class="work-note">{{ work.note }} </span>
+        </div>
+        <div class="phone-descriptor">
+          <span class="work-title">{{ work.name }}</span>
+          <span class="work-description">{{ work.description }}</span>
+          <span class="work-note">{{ work.note }} </span>
+        </div>
+      </a>
     </div>
-    <div class = "col">
-        {% for work in site.data.works %}
-            {% if work.type == page.type and work.num == 1 %}
-                <div class="work-item"> 
-                    <a href="{{work.url}}">
-                        <img src="{{ work.image }}">
-                        <div class = "overlay hide-me" onmouseover="workHover(this)" onmouseout="workOut(this)">
-                            <p class = "work-title">{{ work.name }}</p>
-                            <span class = "work-description">{{ work.description }}</span>
-                            <span class = "work-note">{{ work.note }} </span>
-                        </div>
-                        <div class = "phone-descriptor">
-                            <span class = "work-title">{{ work.name }}</span>
-                            <span class = "work-description">{{ work.description }}</span>
-                            <span class = "work-note">{{ work.note }} </span> 
-                        </div>
-                    </a>
-                </div>
-            {% endif %}
-        {% endfor %}
+    {% endif %} {% endfor %}
+  </div>
+  <div class="col">
+    {% for work in site.data.works %} {% if work.type == page.type and work.num
+    == 1 %}
+    <div class="work-item">
+      <a href="{{work.url}}" target="_blank">
+        <img src="{{ work.image }}" />
+        <div
+          class="overlay hide-me"
+          onmouseover="workHover(this)"
+          onmouseout="workOut(this)"
+        >
+          <p class="work-title">{{ work.name }}</p>
+          <span class="work-description">{{ work.description }}</span>
+          <span class="work-note">{{ work.note }} </span>
+        </div>
+        <div class="phone-descriptor">
+          <span class="work-title">{{ work.name }}</span>
+          <span class="work-description">{{ work.description }}</span>
+          <span class="work-note">{{ work.note }} </span>
+        </div>
+      </a>
     </div>
-    {{content}}
+    {% endif %} {% endfor %}
+  </div>
+  {{content}}
 </div>

@@ -1,37 +1,37 @@
 - type: film
   url:
-  name: The Last Minute
+  name: Apologized
   image: /assets/img/The_Last_Minute_noose.JPG
   description: Struggling to come to terms with himself, a veteran has hallucinatory conversations with his furniture as he journey's through memories with loved ones. A NYFA Graduate thesis film.
-  note: Currently in post-production.
+  note: Footage currently unavailable.
   num: 0
 - type: film
   url:
   name: Work Life
   image: /assets/img/Worklife_shotgun.jpeg
   description: How much do you know about your coworkers? Work Life follows the chaotic paths of 4 colleagues as they get off work on a Friday and wind down in their own... unique ways. A USC Graduate Thesis film.
-  note: Currently in post-production.
+  note: Footage currently unavailable.
   num: 1
 - type: film
   url:
-  name: Birthday Brunch
+  name: How I Blew It
   image: /assets/img/birthday_brunch_group.jpg
   description: Toxic relationships fueled by drugs and alcohol are satirically put on display in this time bomb of a raunchy dark comedy. A LMU Graduate Thesis film.
-  note: Currently in post-production.
+  note: Footage currently unavailable.
   num: 0
 - type: film
-  url:
+  url: https://filmfreeway.com/Phasmophobia
   name: Phasmophobia
   image: /assets/img/phasmophobia_makeup.png
   description: Stranded on earth after his untimely death 80 years ago, John needs the help of a jumpy psychic and an undead girl to move on. However, there's a lot more to uncover than John thinks. A NYFA Graduate Thesis film.
-  note: Currently out for festival submissions, link available soon!
+  note: Click here to watch!
   num: 1
 - type: film
-  url:
+  url: https://www.youtube.com/watch?v=fVDU4O9cCVA
   name: Caffe Greco
   image: /assets/img/grecco.png
   description: A heartfelt rom-com about finding individual happiness, together. An independent Brown University student production.
-  note: Currently out for festival submissions, link available soon!
+  note: Click here to watch!
   num: 0
 - type: film
   url: https://brownmotionpictures.org/films#/good-night-rest/
@@ -52,7 +52,7 @@
   name: Sometimes I Want To Cut Off My Hands
   image: /assets/img/switcomh.png
   description: A manipulative director and a struggling actress make a movie about her, but nothing feels like it should. A Brown Motion Pictures production and a selection of the 2019 ARMS Flip the Script Festival.
-  note: Link is private. For access, please email me.
+  note: Footage currently unavailable.
   num: 1
 - type: film
   url: https://www.youtube.com/watch?v=R0GVNAg6OGg&t=12m26s
@@ -108,7 +108,7 @@
   name: Boy in "Bulrusher"
   image: /assets/img/PaolaBulrusher.jpeg
   description: In 1955, in the redwood country north of San Francisco, a multiracial girl grows up in a predominantly white town whose residents pepper their speech with the historical dialect of Boontling. Directed by Sarah d'Angelo and produced by Sock & Buskin Theater at Brown University.
-  note: Click the image to watch!
+  note: Click here to watch!
   num: 0
 - type: theater
   url:
@@ -121,9 +121,4 @@
   image: /assets/img/Durnin.png
   url: https://www.youtube.com/embed/nrGqIxHR2AA
   description: This monologue is from the play "The Unavoidable Disappearance of Tom Durnin" written by Steven Levinson. The performance took place during my "Voice - The Actors Instrument" class at Brown University, taught by the very talented Rebecca Gibel. You'll hear how she offers excellent guidance as I move into, through, and out of the monologue. This reading of it became very important and emotionally charged for me and opened me up in a new and exciting way.
-  phone-note: Click the image to watch!
-- type: monologue
-  image: /assets/img/Highway.png
-  url: https://www.youtube.com/embed/MilFSLA_h-4
-  description: This monologue, from the solo show "Wake Up and Smell The Coffee", was my final for a iPhone moviemaking class at Brown University taught by emmy-winning filmmaker and producer Ted Bogosian. This long solo performance was a great exercise in making very intentional choices that were the driving force behind the arc of the piece.
   phone-note: Click the image to watch!
