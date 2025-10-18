@@ -10,7 +10,7 @@ const ICON_SIZE = 36;
 
 function Footer() {
   return (
-    <footer className="bg-primary-color text-white p-4 text-center">
+    <footer className="header-footer-background text-white p-4 text-center">
       <div className="flex justify-center space-x-6 mb-4">
         <a
           href="https://www.imdb.com/name/nm10824725/"

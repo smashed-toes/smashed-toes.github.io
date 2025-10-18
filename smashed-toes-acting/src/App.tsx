@@ -9,7 +9,7 @@ import Sketches from "./pages/Sketches";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen min-w-screen bg-black">
+    <div className="flex flex-col min-h-screen min-w-screen gradient-background">
       <Header />
       <main className="flex-grow p-4 md:p-6">
         <Routes>

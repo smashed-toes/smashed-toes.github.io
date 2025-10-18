@@ -11,7 +11,7 @@ function Sketches() {
               {sketch.title}
             </h2>
             <iframe
-              className="aspect-video"
+              className="aspect-video rounded-2xl"
               src={sketch.url.replace("watch?v=", "embed/")}
               title={sketch.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

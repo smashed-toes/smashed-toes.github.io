@@ -21,6 +21,38 @@
   --font-display: "Ribes", sans-serif; /* Define a new font family */
 }
 
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-background {
+  background: linear-gradient(
+    270deg,
+    #050008,
+    #560a74,
+    #1c1c93,
+    #09beeb,
+    #a70caf
+  );
+  background-size: 1000% 1000%;
+  animation: gradientShift 50s ease infinite;
+}
+
+.header-footer-background {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly translucent white */
+  backdrop-filter: blur(20px); /* Blur for the glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Add a border for better outline */
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
