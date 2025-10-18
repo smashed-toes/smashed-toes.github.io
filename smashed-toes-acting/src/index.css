@@ -49,7 +49,7 @@
 .header-footer-background {
   background-color: rgba(255, 255, 255, 0.1); /* Slightly translucent white */
   backdrop-filter: blur(20px); /* Blur for the glass effect */
-  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  -webkit-backdrop-filter: blur(20px); /* For Safari support */
   border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Add a border for better outline */
 }
 
