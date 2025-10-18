@@ -1,0 +1,11 @@
+.nav-link {
+  font-family: "Unbounded", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #d1d1d1; /* Slightly darker */
+}
