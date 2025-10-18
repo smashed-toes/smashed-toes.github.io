@@ -58,7 +58,9 @@ function ProjectCard({
               <h2 className="text-2xl font-semibold mb-2">{title}</h2>
               {role && <h3 className="text-lg font-semibold">{role}</h3>}
               <p>{description}</p>
-              <p className="italic">Click to watch</p>
+              <div className="flex pt-3 items-center justify-center">
+                <p className="italic">Click to watch</p>
+              </div>
             </div>
           </div>
         </a>
