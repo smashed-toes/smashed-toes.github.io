@@ -40,7 +40,7 @@ function Header() {
   ));
 
   return (
-    <header className="bg-primary-color text-white p-4 relative">
+    <header className="bg-primary-color text-white p-4 sticky top-0 z-50 relative">
       <nav className="flex justify-between items-center">
         <div className="text-4xl font-bold font-heading">Sam Masto</div>
 
