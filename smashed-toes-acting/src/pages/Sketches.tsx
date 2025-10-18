@@ -17,7 +17,7 @@ function Sketches() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="mt-2 text-lg">{sketch.description}</p>
+            <p className="mt-2 font-bold text-xl">{sketch.description}</p>
           </div>
         ))}
       </div>
