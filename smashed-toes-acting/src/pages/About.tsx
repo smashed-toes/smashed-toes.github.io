@@ -3,7 +3,7 @@ import SamMastoHeadshot from "../assets/images/Sam_Masto_Headshot1.jpg";
 function About() {
   return (
     <div className="p-8 flex flex-col ">
-      <h1 className="text-4xl font-bold">About Me</h1>
+      <h1 className="text-4xl font-bold font-heading">About Me</h1>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="w-full md:w-2/3 pr-5">
           <p className="mt-4 text-lg">

@@ -18,8 +18,15 @@ function Header() {
           >
             About
           </Link>
-          <Link to="/work" className={navLinkStyles} style={{ color: "white" }}>
-            Work
+          <Link to="/film" className={navLinkStyles} style={{ color: "white" }}>
+            Film
+          </Link>
+          <Link
+            to="/theater"
+            className={navLinkStyles}
+            style={{ color: "white" }}
+          >
+            Theater
           </Link>
         </div>
       </nav>

@@ -1,8 +1,10 @@
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import About from "./pages/About";
-import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Film from "./pages/Film";
+import Theater from "./pages/Theater";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/film" element={<Film />} />
+          <Route path="/theater" element={<Theater />} />
         </Routes>
       </main>
       <Footer />
