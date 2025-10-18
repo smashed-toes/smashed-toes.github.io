@@ -1,49 +1,49 @@
 [
   {
     "url": "",
-    "image": "src/assets/images/cannibal_staredown_enhanced.jpg",
+    "image": "/images/cannibal_staredown_enhanced.jpg",
     "title": "Frenchy in \"Cannibal - The Musical\"",
     "description": "Trey Parker's Cannibal - The Musical is the true story of the only person convicted of cannibalism in America - Alfred Packer. He tells his story of an ill-fated trip to the Colorado Territory involving run-ins with fur trappers, a cyclops, and of course... cannibalism. Directed by Raleigh Lench and produced by BoomStick Theater."
   },
   {
     "url": "",
-    "image": "src/assets/images/space_captain_scared.JPG",
+    "image": "/images/space_captain_scared.JPG",
     "title": "Dr. Crabbe/Centurion 1 in \"Space Captain - Captain of Space\"",
     "description": "The moon is crashing into the earth! The evil King Xayno wants to conquer the galaxy! Our daring Space Captain needs to... check his ego?! This absurd play produced by BoomStick Theater and directed by Raleigh Lench puts a twist on the tropes of 1930's space adventure shows and leaves you wanting more."
   },
   {
     "url": "",
-    "image": "src/assets/images/Hanging_Girl_Trio.jpeg",
+    "image": "/images/Hanging_Girl_Trio.jpeg",
     "title": "Everett in \"The Hanging Girl\"",
     "description": "In this thrilling horror play, Sonny throws a party at a shack on a hill that deteriorates into chaos. Little does he know, his Father - Everett - committed an unforgivable act at the same spot 18 years ago. Directed by Rishi Wagle, Produced by Brown University Production Workshop, and written by Aleks Merilo."
   },
   {
     "url": "https://drive.google.com/file/d/13qQKYGO2s0qhAfyoZuaED_tCXmmjcSZT/view?t=22m33s",
-    "image": "src/assets/images/AYLI_Cast.JPG",
+    "image": "/images/AYLI_Cast.JPG",
     "title": "Oliver in \"As You Like It\"",
     "description": "This classic Shakespeare pastoral comedy was performed in the main hall of the Brown slavic studies building. This links to my favorite scene from the 2nd half of our performance. Directed by Maddie Groff and produced by Brown University's Shakespeare On The Green"
   },
   {
     "url": "https://drive.google.com/file/d/1CIX-TiWNbaIQc8gql3hPmQk9rbwxiNjO/view?t=04m03s",
-    "image": "src/assets/images/Goblin_House_Bread.png",
+    "image": "/images/Goblin_House_Bread.png",
     "title": "Dad in \"Goblin House\"",
     "description": "This original absurdist musical follows those affected by Goblin House, a high stakes game show sponsored by MagicBread (you get three wishes but don't eat it). After Dad eats the magic bread, his 10 year old daughter teams up with a human cat and her mom's new boyfriend to defeat Carbohydro, the magic bread mascot, and save her Dad. Written and Directed by Charlie and Ben Stewart. Produced by Brown University Musical Forum."
   },
   {
     "url": "",
-    "image": "src/assets/images/Firefly_Cursed.jpeg",
+    "image": "/images/Firefly_Cursed.jpeg",
     "title": "Simon in \"A Firefly In the Light\"",
     "description": "An original musical about a small-town girl and her childhood crush who both have big dreams of making it in the music industry. As they grow up, transitioning from high-school to the real world, they have very different experiences. The play was an Official Selection of the 2017 New York Musical Festival. Written and Directed by Shayna Toh and produced by Brown University Musical Forum."
   },
   {
     "url": "https://drive.google.com/file/d/1YnCVrek9AY31e0aa8KPRxDZsCrkXlq3m/view?t=42m27s",
-    "image": "src/assets/images/PaolaBulrusher.jpeg",
+    "image": "/images/PaolaBulrusher.jpeg",
     "title": "Boy in \"Bulrusher\"",
     "description": "In 1955, in the redwood country north of San Francisco, a multiracial girl grows up in a predominantly white town whose residents pepper their speech with the historical dialect of Boontling. Directed by Sarah d'Angelo and produced by Sock & Buskin Theater at Brown University."
   },
   {
     "url": "",
-    "image": "src/assets/images/EvilDeadFart.jpg",
+    "image": "/images/EvilDeadFart.jpg",
     "title": "Jake in \"Evil Dead The Musical (High School Version)\"",
     "description": "Inspired by the cult classic movies of the same name, this bloody and chaotic production follows the horrific events that ensue when you spend a night in an abandoned cabin with a book bound in human skin. This was the first ever production of the High School Version of this Off-Broadway musical. Produced at Stagedoor Manor and directed by Rob Sharlow."
   }

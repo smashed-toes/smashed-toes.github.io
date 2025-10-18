@@ -1,5 +1,5 @@
-import SamMastoHeadshot1 from "../assets/images/Sam_Masto_Headshot1.jpg";
-import SamMastoHeadshot2 from "../assets/images/Sam_Masto_Headshot2.jpg";
+import SamMastoHeadshot1 from "/images/Sam_Masto_Headshot1.jpg";
+import SamMastoHeadshot2 from "/images/Sam_Masto_Headshot2.jpg";
 import { useState, useEffect } from "react";
 
 function About() {
