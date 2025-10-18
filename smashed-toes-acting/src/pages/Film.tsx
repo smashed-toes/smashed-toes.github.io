@@ -13,6 +13,7 @@ function Film() {
             title={film.title}
             description={film.description}
             url={film.url}
+            role={film.role}
           />
         ))}
       </div>

@@ -5,9 +5,16 @@ interface ProjectCardProps {
   title: string;
   description: string;
   url: string;
+  role?: string;
 }
 
-function ProjectCard({ image, title, description, url }: ProjectCardProps) {
+function ProjectCard({
+  image,
+  title,
+  description,
+  url,
+  role,
+}: ProjectCardProps) {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   // Mobile version of project card
@@ -30,12 +37,15 @@ function ProjectCard({ image, title, description, url }: ProjectCardProps) {
         <div className="inset-0 flex items-center justify-center text-white">
           <div className="p-4">
             <h2 className="text-2xl font-semibold mb-2">{title}</h2>
+            {role && <h3 className="text-lg font-semibold">{role}</h3>}
             <p>{description}</p>
           </div>
         </div>
       </div>
     );
   }
+
+  console.log("role", role);
 
   // Desktop version of project card
   return (
@@ -44,8 +54,9 @@ function ProjectCard({ image, title, description, url }: ProjectCardProps) {
         <a href={url} target="_blank" rel="noopener noreferrer">
           <img src={image} alt={title} className="w-full h-auto" />
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-80 flex items-center justify-center text-white">
-            <div className="p-4 space-y-2">
-              <h2 className="text-2xl font-semibold">{title}</h2>
+            <div className="p-4">
+              <h2 className="text-2xl font-semibold mb-2">{title}</h2>
+              {role && <h3 className="text-lg font-semibold">{role}</h3>}
               <p>{description}</p>
               <p className="italic">Click to watch</p>
             </div>
@@ -57,6 +68,7 @@ function ProjectCard({ image, title, description, url }: ProjectCardProps) {
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-80 flex items-center justify-center text-white">
             <div className="p-4">
               <h2 className="text-2xl font-semibold mb-2">{title}</h2>
+              {role && <h3 className="text-lg font-semibold">{role}</h3>}
               <p>{description}</p>
             </div>
           </div>
