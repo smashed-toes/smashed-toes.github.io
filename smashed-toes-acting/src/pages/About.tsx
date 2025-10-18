@@ -1,6 +1,6 @@
 import SamMastoHeadshot1 from "../assets/images/Sam_Masto_Headshot1.jpg";
 import SamMastoHeadshot2 from "../assets/images/Sam_Masto_Headshot2.jpg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function About() {
   const images = [
@@ -9,13 +9,17 @@ function About() {
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
   const goToImage = (index: number) => {
     setCurrentIndex(index);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // 5 seconds
+
+    return () => clearInterval(interval); // Clean up the interval on unmount
+  }, [images.length]);
 
   return (
     <div className="p-8 flex flex-col ">
@@ -55,7 +59,7 @@ function About() {
           <img
             src={images[currentIndex]}
             alt="Carousel Image"
-            className="rounded-lg"
+            className="rounded-lg transition-all duration-1000 ease-in-out" // Add transition effect
           />
           <div className="flex justify-center mt-2">
             {images.map((_, index) => (
