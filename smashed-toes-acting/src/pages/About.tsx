@@ -1,6 +1,22 @@
-import SamMastoHeadshot from "../assets/images/Sam_Masto_Headshot1.jpg";
+import SamMastoHeadshot1 from "../assets/images/Sam_Masto_Headshot1.jpg";
+import SamMastoHeadshot2 from "../assets/images/Sam_Masto_Headshot2.jpg";
+import { useState } from "react";
 
 function About() {
+  const images = [
+    SamMastoHeadshot1,
+    SamMastoHeadshot2 /* , more images here */,
+  ];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const goToImage = (index: number) => {
+    setCurrentIndex(index);
+  };
+
   return (
     <div className="p-8 flex flex-col ">
       <h1 className="text-4xl font-bold font-heading">About Me</h1>
@@ -35,12 +51,23 @@ function About() {
             about drinking piña coladas in the rain.
           </p>
         </div>
-        <div className="w-full md:w-1/3 mt-8 justify-center aspect-2/3">
+        <div className="w-full md:w-1/3 mt-8 justify-center aspect-2/3 relative">
           <img
-            src={SamMastoHeadshot}
-            alt="Sam's Big Ol Head"
+            src={images[currentIndex]}
+            alt="Carousel Image"
             className="rounded-lg"
           />
+          <div className="flex justify-center mt-2">
+            {images.map((_, index) => (
+              <div
+                key={index}
+                onClick={() => goToImage(index)}
+                className={`w-3 h-3 rounded-full mx-1 cursor-pointer ${
+                  currentIndex === index ? "bg-white" : "bg-gray-400"
+                }`}
+              ></div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
