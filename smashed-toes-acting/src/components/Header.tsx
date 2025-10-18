@@ -28,6 +28,13 @@ function Header() {
           >
             Theater
           </Link>
+          <Link
+            to="/sketches"
+            className={navLinkStyles}
+            style={{ color: "white" }}
+          >
+            Sketches
+          </Link>
         </div>
       </nav>
     </header>

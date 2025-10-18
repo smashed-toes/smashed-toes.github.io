@@ -14,7 +14,7 @@ function ProjectCard({ image, title, description, url }: ProjectCardProps) {
   if (isMobile) {
     console.log("Mobile");
     return (
-      <div className="flex flex-col ">
+      <div className="flex flex-col max-w-screen">
         {url ? (
           <>
             <a href={url} target="_blank" rel="noopener noreferrer">
