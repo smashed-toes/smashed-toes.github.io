@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import clsx from "clsx";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [hoveredLink, setHoveredLink] = useState("");
   const navLinkStyles = "font-heading text-2xl";
-
   const linkArray = [
     { path: "/", label: "Home" },
     { path: "/about", label: "About" },
@@ -41,12 +39,7 @@ function Header() {
   ));
 
   return (
-    <header
-      className={clsx(
-        "header-footer-background backdrop-blur-[20px] text-white p-4 sticky top-0 z-50 relative",
-        !isOpen && "rounded-b-2xl"
-      )}
-    >
+    <header className="header-footer-background backdrop-blur-[20px] text-white p-4 sticky top-0 z-50 rounded-b-2xl">
       <nav className="flex justify-between items-center">
         <div className="text-4xl font-bold font-heading">Sam Masto</div>
 
@@ -64,7 +57,7 @@ function Header() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="absolute left-0 top-full w-full bg-primary-color border-t border-white flex flex-col items-center space-y-3 py-4 md:hidden z-50 rounded-b-2xl">
+        <div className="mt-4 w-full border-t border-white/20 flex flex-col items-center space-y-3 py-4 md:hidden rounded-b-2xl">
           {linkElements}
         </div>
       )}
