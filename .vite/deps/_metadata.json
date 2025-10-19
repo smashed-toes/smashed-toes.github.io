@@ -1,0 +1,61 @@
+{
+  "hash": "98e94bbe",
+  "configHash": "ca217c4b",
+  "lockfileHash": "aba5eae0",
+  "browserHash": "d3fb8372",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "247af889",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "1e56291b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d5b1c7e4",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "9ef59fd8",
+      "needsInterop": false
+    },
+    "react-icons/fa6": {
+      "src": "../../node_modules/react-icons/fa6/index.mjs",
+      "file": "react-icons_fa6.js",
+      "fileHash": "784a1f4f",
+      "needsInterop": false
+    },
+    "clsx": {
+      "src": "../../node_modules/clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "c48e7d3a",
+      "needsInterop": false
+    },
+    "react-responsive": {
+      "src": "../../node_modules/react-responsive/dist/esm/index.js",
+      "file": "react-responsive.js",
+      "fileHash": "6dc69a8c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-7BTQE24S": {
+      "file": "chunk-7BTQE24S.js"
+    },
+    "chunk-UNLUE3XC": {
+      "file": "chunk-UNLUE3XC.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
