@@ -1,0 +1,19 @@
+<!-- This is a 404 page that redirects to the current page. Takes care of 
+ production issue where the user is redirected to the root page when they 
+ navigate to a non-existent page. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Store the path and redirect to index.html
+      sessionStorage.setItem(
+        "redirect",
+        window.location.pathname + window.location.search + window.location.hash
+      );
+      window.location.href = "/";
+    </script>
+  </head>
+  <body></body>
+</html>
