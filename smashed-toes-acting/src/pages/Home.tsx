@@ -15,7 +15,7 @@ function Home() {
       </p>
       <div className="relative w-[90%] h-full aspect-video">
         {isLoading && (
-          <div className="absolute inset-0 flex items-center justify-center header-footer-background animate-pulse z-10">
+          <div className="absolute inset-0 flex items-center justify-center header-footer-background backdrop-blur-[20px] animate-pulse z-10">
             <p className="font-display text-white text-5xl">Loading Reel...</p>
           </div>
         )}

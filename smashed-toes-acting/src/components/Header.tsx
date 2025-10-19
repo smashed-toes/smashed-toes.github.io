@@ -43,7 +43,7 @@ function Header() {
   return (
     <header
       className={clsx(
-        "header-footer-background text-white p-4 sticky top-0 z-50 relative",
+        "header-footer-background backdrop-blur-[20px] text-white p-4 sticky top-0 z-50 relative",
         !isOpen && "rounded-b-2xl"
       )}
     >
