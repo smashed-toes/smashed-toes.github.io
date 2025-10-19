@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="flex flex-col px-8 justify-center items-center space-y-4">
       <h1 className="text-4xl font-bold font-heading">Hey now</h1>
-      <p className="text-2xl md:text-lg">
+      <p className="md:text-2xl text-lg font-heading">
         I'm guessing you came here for my reel, check it out below.
       </p>
       {isMobile ? (
