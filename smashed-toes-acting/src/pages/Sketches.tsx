@@ -6,18 +6,20 @@ function Sketches() {
       <h1 className="text-4xl font-bold font-heading">Sketches</h1>
       <div className="flex flex-col items-center justify-center pt-4 gap-4">
         {sketchesData.map((sketch, index) => (
-          <div key={index} className="mb-8 max-w-screen">
+          <div key={index} className="mb-8 max-w-screen w-full">
             <h2 className="mb-4 text-center text-2xl font-semibold">
               {sketch.title}
             </h2>
             <iframe
-              className="aspect-video rounded-2xl"
+              className="aspect-video w-full rounded-2xl"
               src={sketch.url.replace("watch?v=", "embed/")}
               title={sketch.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="mt-2 font-bold text-xl">{sketch.description}</p>
+            <p className="mt-2 font-bold text-xl w-full">
+              {sketch.description}
+            </p>
           </div>
         ))}
       </div>
