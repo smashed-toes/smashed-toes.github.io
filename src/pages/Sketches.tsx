@@ -7,7 +7,7 @@ function Sketches() {
       <div className="flex flex-col items-center justify-center pt-4 gap-4">
         {sketchesData.map((sketch, index) => (
           <div key={index} className="mb-8 max-w-screen w-full">
-            <h2 className="mb-4 text-center text-2xl font-semibold">
+            <h2 className="mb-4 text-center text-3xl font-bold">
               {sketch.title}
             </h2>
             <iframe
