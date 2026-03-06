@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Film from "./pages/Film";
 import Theater from "./pages/Theater";
 import Sketches from "./pages/Sketches";
+import Improv from "./pages/Improv";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/film" element={<Film />} />
           <Route path="/theater" element={<Theater />} />
           <Route path="/sketches" element={<Sketches />} />
+          <Route path="/improv" element={<Improv />} />
         </Routes>
       </main>
       <Footer />

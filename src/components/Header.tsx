@@ -11,6 +11,7 @@ function Header() {
     { path: "/film", label: "Film" },
     { path: "/theater", label: "Theater" },
     { path: "/sketches", label: "Sketches" },
+    { path: "/improv", label: "Improv" },
   ];
 
   const getLinkStyle = (link: string) => ({

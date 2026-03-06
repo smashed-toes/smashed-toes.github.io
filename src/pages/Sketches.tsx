@@ -1,26 +1,18 @@
 import sketchesData from "../data/sketches.json";
+import VideoCard from "../components/VideoCard";
 
 function Sketches() {
   return (
     <div className="w-full flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold font-heading">Sketches</h1>
-      <div className="flex flex-col items-center justify-center pt-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 pt-4 gap-4 w-full">
         {sketchesData.map((sketch, index) => (
-          <div key={index} className="mb-8 max-w-screen w-full">
-            <h2 className="mb-4 text-center text-3xl font-bold">
-              {sketch.title}
-            </h2>
-            <iframe
-              className="aspect-video w-full rounded-2xl"
-              src={sketch.url.replace("watch?v=", "embed/")}
-              title={sketch.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            <p className="mt-2 font-bold text-xl w-full">
-              {sketch.description}
-            </p>
-          </div>
+          <VideoCard
+            key={index}
+            url={sketch.url}
+            title={sketch.title}
+            description={sketch.description}
+          />
         ))}
       </div>
     </div>
