@@ -1,7 +1,7 @@
 interface VideoCardProps {
   url: string;
   title: string;
-  description: string;
+  description?: string;
 }
 
 function VideoCard({ url, title, description }: VideoCardProps) {
@@ -15,7 +15,7 @@ function VideoCard({ url, title, description }: VideoCardProps) {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-      <p className="mt-2 font-bold text-xl w-full">{description}</p>
+      {description && <p className="mt-2 font-bold text-xl w-full">{description}</p>}
     </div>
   );
 }
