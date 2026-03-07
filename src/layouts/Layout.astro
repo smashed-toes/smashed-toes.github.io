@@ -26,6 +26,7 @@ const { title, description, ogImage, canonicalURL } = Astro.props;
       ogImage={ogImage}
       canonicalURL={canonicalURL}
     />
+    <slot name="head" />
   </head>
   <body>
     <div class="flex flex-col min-h-screen gradient-background">

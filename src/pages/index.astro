@@ -7,5 +7,27 @@ import HomeReel from "../components/HomeReel";
   title="Sam Masto | Actor"
   description="Sam Masto — actor based in Los Angeles. Film, theater, sketch, and improv performances, casting info, and reel."
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sam Masto",
+      "url": "https://sammasto.com",
+      "jobTitle": "Actor",
+      "sameAs": [
+        "https://www.imdb.com/name/nm10824725",
+        "https://www.instagram.com/smashed_toes",
+        "https://www.tiktok.com/@smashed_toes"
+      ],
+      "knowsAbout": ["Film Acting", "Theater", "Improv Comedy", "Sketch Comedy"],
+      "image": "https://sammasto.com/headshot.jpg"
+    })} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sam Masto | Actor",
+      "url": "https://sammasto.com"
+    })} />
+  </Fragment>
   <HomeReel client:load />
 </Layout>
