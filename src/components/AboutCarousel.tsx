@@ -5,6 +5,11 @@ const images = [
   "/images/Sam_Masto_Headshot2.jpg",
 ];
 
+const altTexts = [
+  "Sam Masto — actor headshot",
+  "Sam Masto — actor headshot (alternate)",
+];
+
 function AboutCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -12,7 +17,7 @@ function AboutCarousel() {
     <div className="w-full md:w-1/3 mt-8 justify-center aspect-2/3 relative">
       <img
         src={images[currentIndex]}
-        alt="Headshot"
+        alt={altTexts[currentIndex]}
         className="rounded-lg transition-all duration-1000 ease-in-out"
       />
       <div className="flex justify-center mt-2">
