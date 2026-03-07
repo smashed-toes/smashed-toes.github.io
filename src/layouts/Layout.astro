@@ -34,7 +34,7 @@ const { title, description, ogImage, canonicalURL } = Astro.props;
       <main class="flex-grow p-4 md:p-6">
         <slot />
       </main>
-      <Footer />
+      <Footer client:load />
     </div>
   </body>
 </html>

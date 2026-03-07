@@ -40,9 +40,17 @@ function Footer() {
         >
           <FaXTwitter size={ICON_SIZE} style={{ color: "white" }} />
         </a>
-        <a href="mailto:sam.masto@gmail.com">
+        <button
+          onClick={() => {
+            const u = "sam.masto";
+            const d = "gmail" + "." + "com";
+            window.location.href = "mailto:" + u + "@" + d;
+          }}
+          aria-label="Contact me by email"
+          style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}
+        >
           <FaEnvelope size={ICON_SIZE} style={{ color: "white" }} />
-        </a>
+        </button>
       </div>
       <div className="mt-2">&copy; 2025 Sam's Acting Website</div>
     </footer>
