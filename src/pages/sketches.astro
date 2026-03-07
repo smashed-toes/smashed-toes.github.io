@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import VideoCard from "../components/VideoCard.astro";
+import sketchesData from "../data/sketches.json";
+---
+
+<Layout title="Sketches - Sam Masto">
+  <div class="w-full flex flex-col items-center justify-center text-white">
+    <h1 class="text-5xl font-bold font-heading">Sketches</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 pt-4 gap-4 w-full">
+      {
+        sketchesData.map((sketch) => (
+          <VideoCard
+            url={sketch.url}
+            title={sketch.title}
+            description={sketch.description}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Layout>

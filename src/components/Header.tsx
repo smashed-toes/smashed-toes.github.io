@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function Header() {
@@ -19,13 +18,10 @@ function Header() {
     transition: "color 0.2s ease",
   });
 
-  /**
-   * All the styled links in the navbar
-   */
   const linkElements = linkArray.map((link) => (
-    <Link
+    <a
       key={link.path}
-      to={link.path}
+      href={link.path}
       className={navLinkStyles}
       style={getLinkStyle(link.path)}
       onClick={() => {
@@ -36,7 +32,7 @@ function Header() {
       onMouseLeave={() => setHoveredLink("")}
     >
       {link.label}
-    </Link>
+    </a>
   ));
 
   return (
@@ -46,19 +42,19 @@ function Header() {
 
         {/* Hamburger Button (Mobile Only) */}
         <button
-          className="block md:hidden text-white text-2xl focus:outline-none"
+          className="block lg:hidden text-white text-2xl focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
         </button>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex space-x-6">{linkElements}</div>
+        <div className="hidden lg:flex space-x-6">{linkElements}</div>
       </nav>
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="mt-4 w-full border-t border-white/20 flex flex-col items-center space-y-3 py-4 md:hidden rounded-b-2xl">
+        <div className="mt-4 w-full border-t border-white/20 flex flex-col items-center space-y-3 py-4 lg:hidden rounded-b-2xl">
           {linkElements}
         </div>
       )}
