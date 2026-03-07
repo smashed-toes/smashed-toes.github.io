@@ -1,0 +1,55 @@
+---
+interface Props {
+  image: string;
+  title: string;
+  description: string;
+  url: string;
+  role?: string;
+}
+
+const { image, title, description, url, role } = Astro.props;
+---
+
+<div class="relative group">
+  <!-- Desktop image + hover overlay (image also visible on mobile) -->
+  {
+    url ? (
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <img src={image} alt={title} class="w-full h-auto md:rounded-2xl" />
+        <div class="absolute inset-0 bg-black/75 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center text-white rounded-2xl">
+          <div class="p-4">
+            <h2 class="text-2xl font-semibold mb-2">{title}</h2>
+            {role && <h3 class="text-lg font-semibold">{role}</h3>}
+            <p>{description}</p>
+            <div class="flex pt-3 items-center justify-center">
+              <p class="italic">Click to watch</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    ) : (
+      <div>
+        <img src={image} alt={title} class="w-full h-auto md:rounded-2xl" />
+        <div class="absolute inset-0 bg-black/75 opacity-0 group-hover:opacity-100 hidden md:flex items-center justify-center text-white rounded-2xl">
+          <div class="p-4">
+            <h2 class="text-2xl font-semibold mb-2">{title}</h2>
+            {role && <h3 class="text-lg font-semibold">{role}</h3>}
+            <p>{description}</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  <!-- Mobile info (hidden on desktop) -->
+  <div class="flex flex-col max-w-screen md:hidden">
+    {url && <p class="italic text-center mt-2">Click the image above to watch</p>}
+    <div class="inset-0 flex items-center justify-center text-white">
+      <div class="p-4">
+        <h2 class="text-2xl font-semibold mb-2">{title}</h2>
+        {role && <h3 class="text-lg font-semibold">{role}</h3>}
+        <p>{description}</p>
+      </div>
+    </div>
+  </div>
+</div>

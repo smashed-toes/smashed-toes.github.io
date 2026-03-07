@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 
 const VIMEO_URL = "https://player.vimeo.com/video/882724629?h=f340a06f6d";
 
-function Home() {
+function HomeReel() {
   const [isLoading, setIsLoading] = useState(true);
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
@@ -12,13 +12,12 @@ function Home() {
   };
 
   const handleMobileClick = () => {
-    // Open Vimeo in a new window/tab for mobile
     window.open(VIMEO_URL + "&autoplay=1", "_blank");
   };
 
   return (
     <div className="flex flex-col px-8 justify-center items-center space-y-4">
-      <h1 className="text-4xl font-bold font-heading">Hey now</h1>
+      <h1 className="text-5xl font-bold font-heading">Hey now</h1>
       <p className="md:text-2xl text-lg font-heading">
         I'm guessing you came here for my reel, check it out below.
       </p>
@@ -85,4 +84,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeReel;

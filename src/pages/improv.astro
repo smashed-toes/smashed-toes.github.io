@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import VideoCard from "../components/VideoCard.astro";
+import rawImprovData from "../data/improv.json";
+
+type ImprovClip = {
+  url: string;
+  title: string;
+  description?: string;
+};
+
+const improvData = rawImprovData as ImprovClip[];
+---
+
+<Layout title="Improv - Sam Masto">
+  <div class="w-full flex flex-col items-center justify-center text-white">
+    <h1 class="text-5xl font-bold font-heading">Improv</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 pt-4 gap-4 w-full">
+      {
+        improvData.map((clip) => (
+          <VideoCard
+            url={clip.url}
+            title={clip.title}
+            description={clip.description}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import theaterData from "../data/theater.json";
+---
+
+<Layout title="Theater - Sam Masto">
+  <div class="w-full flex flex-col items-center justify-center text-white">
+    <h1 class="text-5xl font-bold font-heading">Theater</h1>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+      {
+        theaterData.map((show) => (
+          <ProjectCard
+            image={show.image}
+            title={show.title}
+            description={show.description}
+            url={show.url}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Layout>

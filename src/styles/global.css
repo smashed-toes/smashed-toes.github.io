@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Ribes";
+  src: url("../assets/fonts/Ribes-Black.woff2") format("woff2"),
+    url("../assets/fonts/Ribes-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary-color: #301934;
+  --font-heading: "Unbounded", serif;
+  --font-body: "Oswald", sans-serif;
+  --font-sans: "Roboto", sans-serif;
+  --font-display: "Ribes", sans-serif;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-background {
+  background: linear-gradient(
+    270deg,
+    #050008,
+    #560a74,
+    #1c1c93,
+    #0b91cb,
+    #a70caf
+  );
+  background-size: 1000% 1000%;
+  animation: gradientShift 50s ease infinite;
+}
+
+.header-footer-background {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  isolation: isolate;
+  transform: translateZ(0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
